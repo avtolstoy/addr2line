@@ -1,0 +1,22 @@
+{
+  "name": "addr2line",
+  "version": "0.0.1",
+  "description": "A library to convert addresses into filename and line number pairs",
+  "main": "./lib/addr2line.js",
+  "author": {
+    "name": "Andrey Tolstoy",
+    "email": "avtolstoy@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avtolstoy/addr2line.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avtolstoy/addr2line/issues"
+  },
+  "homepage": "https://github.com/avtolstoy/addr2line",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bluebird": "^3.5.0"
+  }
+}
