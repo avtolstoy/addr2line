@@ -1,6 +1,6 @@
 {
   "name": "addr2line",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A library to convert addresses into filename and line number pairs",
   "main": "./lib/addr2line.js",
   "author": {
