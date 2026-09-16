@@ -1,6 +1,6 @@
 {
   "name": "addr2line",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A library to convert addresses into filename and line number pairs",
   "main": "./lib/addr2line.js",
   "author": {
@@ -16,11 +16,10 @@
   },
   "homepage": "https://github.com/avtolstoy/addr2line",
   "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
-    "bluebird": "^3.5.0",
-    "elfy": "^0.1.0",
-    "leb128": "^0.0.2",
-    "node-int64": "^0.4.0",
-    "clone": "^2.1.1"
+    "elfy": "^0.1.0"
   }
 }
